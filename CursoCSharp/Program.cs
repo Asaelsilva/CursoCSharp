@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.ClassesEMetodos;
 
 namespace CursoCSharp {
     class Program {
@@ -19,6 +20,9 @@ namespace CursoCSharp {
                 {"Operadores Relacionais - Fundamentos", OperacoesRelacionais.Executar},
                 {"Operadores Logico - Fundamentos", OperadoresLogico.Executar},
 
+                //Classes e Metodos
+
+                {"Membros - Classes e Metodos", Membros.Executar},
             });
 
             central.SelecionarEExecutar();
