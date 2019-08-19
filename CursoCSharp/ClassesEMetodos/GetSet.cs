@@ -71,7 +71,7 @@ namespace CursoCSharp.ClassesEMetodos
         public static void Executar()
         {
 
-            Moto moto1 = new Moto("Kawasaki", "Ninja zr-6r", -633);
+            Moto moto1 = new Moto("Kawasaki", "Ninja zr-6r", 633);
 
             Console.WriteLine(moto1.GetMarca());
             Console.WriteLine(moto1.GetModelo());
@@ -80,7 +80,7 @@ namespace CursoCSharp.ClassesEMetodos
             Moto moto2 = new Moto();
             moto2.SetMarca("Honda");
             moto2.SetModelo("CG Titan");
-            moto2.SteCilindrada(-150);
+            moto2.SteCilindrada(150);
             Console.WriteLine(moto2.GetMarca() + " " + moto2.GetModelo() + " " + moto2.GetCilindrada());
             
 
