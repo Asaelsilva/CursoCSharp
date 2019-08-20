@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.OrientacaoAObjetos;
 
 namespace CursoCSharp {
     class Program {
@@ -39,6 +40,16 @@ namespace CursoCSharp {
                 {"Valor vs Referencia - Classes e Metodos", ValorVsReferencia.Executar},
                 {"Parametros por Referencia - Classes e Metodos", ParametrosPorReferencia.Executar},
                 {"Parametro com valor Padrão - Classes e Metodos", ParametroPadrao.Executar},
+
+                //Orientaçaao a Objetos
+                {"Herança - Orientaçaao a Objetos", Heranca.Executar},
+                {"Construtor This - Orientaçaao a Objetos", ConstrutorThis.Executar},
+                {"Encapsulamento - Orientaçaao a Objetos", OrientacaoAObjetos.Encapsulamento.Executar},
+                {"Polimorfismo - Orientaçaao a Objetos", Polimorfismo.Executar},
+                {"Abstract - Orientaçaao a Objetos", Abstract.Executar},
+                {"Interface - Orientaçaao a Objetos", Interface.Executar},
+                {"Sealed - Orientaçaao a Objetos", Sealed.Executar},
+
             });
 
             central.SelecionarEExecutar();
