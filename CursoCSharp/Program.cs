@@ -4,10 +4,14 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.OrientacaoAObjetos;
 using CursoCSharp.MetodosEFuncoes;
+using CursoCSharp.Excecoes;
 
-namespace CursoCSharp {
-    class Program {
-        static void Main(string[] args) {
+namespace CursoCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentarios - Fundamentos", Comentarios.Executar},
@@ -58,6 +62,10 @@ namespace CursoCSharp {
                 {"Delegates com funções anonimas - Metodos & Funções ", DelegateFuncAnnonima.Executar},
                 {"Delegates como Parametros - Metodos & Funções ", DelegatesComoParametros.Executar},
                 {"Metodos de Extençãos - Metodos & Funções ", MetodosDeExtensao.Executar},
+
+                // Exceções 
+                {"Primeira Excecao - Exceções ", PrimeiraExcecao.Executar},
+                {"Excecoes Personalizadas - Exceções ", ExcecoesPersonalizadas.Executar},
 
             });
 
