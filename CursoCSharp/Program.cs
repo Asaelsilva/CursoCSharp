@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.OrientacaoAObjetos;
+using CursoCSharp.MetodosEFuncoes;
 
 namespace CursoCSharp {
     class Program {
@@ -49,6 +50,14 @@ namespace CursoCSharp {
                 {"Abstract - Orientaçaao a Objetos", Abstract.Executar},
                 {"Interface - Orientaçaao a Objetos", Interface.Executar},
                 {"Sealed - Orientaçaao a Objetos", Sealed.Executar},
+
+                //Metodos e Funções
+                {"Lambd - Metodos & Funções ", ExemploLambda.Executar},
+                {"Lambda Delegate - Metodos & Funções ", LambdasDelegate.Executar},
+                {"Usando Delegate - Metodos & Funções ", UsandoDelegate.Executar},
+                {"Delegates com funções anonimas - Metodos & Funções ", DelegateFuncAnnonima.Executar},
+                {"Delegates como Parametros - Metodos & Funções ", DelegatesComoParametros.Executar},
+                {"Metodos de Extençãos - Metodos & Funções ", MetodosDeExtensao.Executar},
 
             });
 
