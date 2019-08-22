@@ -5,6 +5,7 @@ using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.OrientacaoAObjetos;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excecoes;
+using CursoCSharp.TopicosAvancados;
 
 namespace CursoCSharp
 {
@@ -66,6 +67,13 @@ namespace CursoCSharp
                 // Exceções 
                 {"Primeira Excecao - Exceções ", PrimeiraExcecao.Executar},
                 {"Excecoes Personalizadas - Exceções ", ExcecoesPersonalizadas.Executar},
+
+                //Topicos Avancados
+                { "LINQ1 - Topicos Avançados ", LINQ1.Executar},
+                { "LINQ2 - Topicos Avançados ", LINQ2.Executar},
+                { "Nullables - Topicos Avançados ", Nullables.Executar},
+                { "Dynamic - Topicos Avançados ", Dynamics.Executar},
+                { "Genericoss - Topicos Avançados ", Genericos.Executar},
 
             });
 
