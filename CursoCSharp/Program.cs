@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using CursoCSharp.Fundamentos;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
 using CursoCSharp.OrientacaoAObjetos;
 using CursoCSharp.MetodosEFuncoes;
 using CursoCSharp.Excecoes;
 using CursoCSharp.TopicosAvancados;
+
 
 namespace CursoCSharp
 {
@@ -14,6 +16,8 @@ namespace CursoCSharp
         static void Main(string[] args)
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
+
+                //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentarios - Fundamentos", Comentarios.Executar},
                 {"Variaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
@@ -27,8 +31,18 @@ namespace CursoCSharp
                 {"Operadores Relacionais - Fundamentos", OperacoesRelacionais.Executar},
                 {"Operadores Logico - Fundamentos", OperadoresLogico.Executar},
 
-                //Classes e Metodos
+                //Coleções
+                {"Array - Coleções", Colecoes.Array.Executar},
+                {"List - Coleções", ColecoesList.Executar},
+                {"Coleções Array List - Coleções", ColecoesArrayList.Executar},
+                {"Set - Coleções", ColecoesSet.Executar},
+                {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stck - Coleções", ColecoesStack.Executar},
+                {"Dicionary - Coleções", ColecoesDicionary.Executar},
 
+
+                //Classes e Metodos
                 {"Membros - Classes e Metodos", Membros.Executar},
                 {"Construtores - Classes e Metodos", Construtores.Executar},
                 {"Metodos com Retorno - Classes e Metodos", MetodosComRetorno.Executar},
